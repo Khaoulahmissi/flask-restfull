@@ -1,0 +1,17 @@
+Collecting flask-marshmallow
+  Downloading flask_marshmallow-0.14.0-py2.py3-none-any.whl (10 kB)
+Requirement already satisfied: marshmallow>=2.0.0 in c:\users\asus\desktop\flask-restful-master\venv\lib\site-packages (from flask-marshmallow) (3.14.1)
+Requirement already satisfied: Flask in c:\users\asus\desktop\flask-restful-master\venv\lib\site-packages (from flask-marshmallow) (2.0.2)
+Collecting six>=1.9.0
+  Using cached six-1.16.0-py2.py3-none-any.whl (11 kB)
+Requirement already satisfied: click>=7.1.2 in c:\users\asus\desktop\flask-restful-master\venv\lib\site-packages (from Flask->flask-marshmallow) (8.0.3)
+Requirement already satisfied: itsdangerous>=2.0 in c:\users\asus\desktop\flask-restful-master\venv\lib\site-packages (from Flask->flask-marshmallow) (2.0.1)
+Requirement already satisfied: Jinja2>=3.0 in c:\users\asus\desktop\flask-restful-master\venv\lib\site-packages (from Flask->flask-marshmallow) (3.0.3)
+Requirement already satisfied: Werkzeug>=2.0 in c:\users\asus\desktop\flask-restful-master\venv\lib\site-packages (from Flask->flask-marshmallow) (2.0.2)
+Requirement already satisfied: importlib-metadata in c:\users\asus\desktop\flask-restful-master\venv\lib\site-packages (from click>=7.1.2->Flask->flask-marshmallow) (4.10.0)
+Requirement already satisfied: colorama in c:\users\asus\desktop\flask-restful-master\venv\lib\site-packages (from click>=7.1.2->Flask->flask-marshmallow) (0.4.4)
+Requirement already satisfied: MarkupSafe>=2.0 in c:\users\asus\desktop\flask-restful-master\venv\lib\site-packages (from Jinja2>=3.0->Flask->flask-marshmallow) (2.0.1)
+Requirement already satisfied: zipp>=0.5 in c:\users\asus\desktop\flask-restful-master\venv\lib\site-packages (from importlib-metadata->click>=7.1.2->Flask->flask-marshmallow) (3.6.0)
+Requirement already satisfied: typing-extensions>=3.6.4 in c:\users\asus\desktop\flask-restful-master\venv\lib\site-packages (from importlib-metadata->click>=7.1.2->Flask->flask-marshmallow) (4.0.1)
+Installing collected packages: six, flask-marshmallow
+Successfully installed flask-marshmallow-0.14.0 six-1.16.0
